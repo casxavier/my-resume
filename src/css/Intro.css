@@ -1,0 +1,44 @@
+@import './Font.css';
+
+.container {
+    margin-top: 2%;
+    max-width: 80%;
+}
+
+.container .box {
+    display:table;
+}
+.container .box .box-row {
+    display:table-row;
+}
+.container .box .box-cell {
+    display:table-cell;
+    width:25%;
+    padding:5%;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box1{
+    text-align: left;
+    margin-left: 2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 40%;
+    display:flex;
+    margin-right: 5%;
+}
+
+.box2{
+    text-align: left;
+    margin-left: 2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:table-cell;
+}
+
+.para{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 2%;
+}

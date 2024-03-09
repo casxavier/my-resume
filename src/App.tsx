@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2> Resume </h2>
+        <p><b>Xavier</b> Chan </p>
       </header>
     </div>
   );
